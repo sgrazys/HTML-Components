@@ -28,19 +28,20 @@ body {
 .pagination {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	gap: 12px;
 	margin-top: 200px;
 }
 .btn {
+	height: 48px;
+	width: 48px;
 	border: solid 1.5px #087f5b;
-	background-color: #fff;
-	padding: 8px;
+	background: none;
 	border-radius: 50%;
 	cursor: pointer;
 
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .btn:hover {
@@ -54,7 +55,6 @@ body {
 .btn-icon {
 	width: 24px;
 	height: 24px;
-	font-weight: bold;
 	stroke: #087f5b;
 }
 .page:link,
@@ -62,36 +62,22 @@ body {
 	font-size: 18px;
 	width: 36px;
 	height: 36px;
-	line-height: 36px;
-	color: #000;
+	color: #343a40;
 	text-decoration: none;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .page:hover,
-.page:active {
+.page:active,
+.page.page--active {
 	color: #fff;
 	background-color: #087f5b;
 	border-radius: 50%;
-}
-
-.active:link,
-.active:visited {
-	font-size: 18px;
-	width: 36px;
-	height: 36px;
-	line-height: 36px;
-	color: #fff;
-	background-color: #087f5b;
-	border-radius: 50%;
-	text-align: center;
-
-	display: inline-block;
 }
 
 .page--dots {
 	font-size: 18px;
-	color: #000;
-	text-decoration: none;
-	cursor: default;
+	color: #868e96;
 }

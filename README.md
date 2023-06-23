@@ -10,6 +10,8 @@ This is my HTML and CSS learning small projects.
 
 -   Grid
 -   Flex
+-   Element components
+-   Section components
 
 # Print Screens
 
